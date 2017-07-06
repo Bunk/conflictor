@@ -14,5 +14,7 @@ The genesis of this was born from a previous need that our team had to notify de
 6. Optionally inspect any errors using the cli: `wt logs`
 
 ## secrets.txt
+```
 GITHUB_TOKEN=<your github token from step #1>
 SLACK_WEBHOOK=<your slack webhook url from step #2>
+```
