@@ -1,0 +1,16 @@
+{
+  "name": "conflictor",
+  "version": "1.0.0",
+  "description": "ChatOps bot that will monitor GitHub PR's for merge conflicts",
+  "main": "index.js",
+  "scripts": {
+    "start": "wt create --bundle --watch --secrets-file secrets.txt ."
+  },
+  "author": "JD Courtoy <jd@courtoy.io>",
+  "license": "MIT",
+  "dependencies": {
+    "octokat": "^0.9.0",
+    "retry": "^0.10.1",
+    "slack-notify": "^0.1.6"
+  }
+}
